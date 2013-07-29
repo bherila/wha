@@ -1,0 +1,147 @@
+﻿body
+{
+	background-color: /*#6B80AA;*/#ADBDA8;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 9pt;
+}
+p 
+{
+    line-height: 160%;
+}
+body, html 
+{
+	width: 100%;
+	height: 600px;
+}
+h1, .h1
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 11pt;
+	font-weight: bold;
+	color: white;
+	padding: 8px;
+	background-color:  #678D6B;/*#6F7BA6; */
+	border-left: 3px solid #355E3B;
+}
+h2, .h2, h3, .label
+{
+	font-size: 10pt;
+	font-weight: bold;
+	color: #003300;
+}
+h3 { margin-bottom: 0px; padding-bottom: 0px; line-height: 100%; }
+.nomargin { margin: 0px; }
+.mainImage
+{
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 72px;
+	vertical-align: top;
+	margin-bottom: 8px;
+}
+.topNavBar
+{
+	color: white;
+	top: 73px;
+	left: 0px;
+	width: 100%;
+	height: 20px;
+	margin-bottom: 0px;
+	/*background-image: url(/layout/v2-header-2.gif);*/
+	background-color: #355E3B;
+	background-repeat: repeat-x;
+	vertical-align: middle;
+	text-align: left;
+}
+.hrItem,.hrItem:link,.hrItem:visited
+{
+	color: White;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 6px 12px 7px 12px;
+	display: inline;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 1px;
+}
+.hrItem:hover, .hrItem:active
+{
+	background: /*Navy;*/#355E3B;
+	padding: 5px 12px 6px 12px;
+	border: 1px outset gray;
+	margin-left: 2px;
+	margin-top: 3px;
+	margin-right: 0px;
+}
+img
+{
+	border: 0px solid gray;
+}
+.small
+{
+	font-size: 12px;
+}
+.popupMenu
+{
+	border-top: 1px solid #6678A7;
+	border-bottom: 1px solid #4F6088;
+	border-left: 1px solid #4F6088;
+	border-right: 1px solid #4F6088;
+	background-color: #6678A7;
+	padding: 0px;
+}
+.menuItem, .menuItem:visited, .menuItem:link
+{
+	font-size: 8pt;
+	text-decoration: none;
+	display: block;
+	border: 0px solid none;
+	padding: 3px;
+	margin: 1px;
+	color: #FFFFFF;
+}
+.menuItem:hover, .menuItem:active
+{
+	border: 1px solid #97A6C4;
+	background-color: #4F6088;
+	padding: 2px;
+}
+.a176
+{
+	position: absolute;
+	left: 167px;
+}
+.a286
+{
+	position: absolute;
+	left: 249px;
+}
+li
+{
+	padding: 3px;
+	line-height: 120%;
+}
+/*ul, ol { margin-top: -1em; }*/
+.sideImage 
+{
+/*	padding: 3px 0px 3px 0px;*/
+	margin-right: 4px;
+	margin-top: 0px;
+	margin-bottom: 4px;
+	margin-left: 4px;
+	border: 0;
+}
+td 
+{
+	vertical-align: top;
+}
+.nomargin { margin: 0px; }
+.justify, .dxncItemContent { text-align: justify; }
+.serif { font-family: Garamond, Times New Roman, Times, Serif; }
+
+.leftimg { margin-bottom: 12px; }
